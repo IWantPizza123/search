@@ -1,0 +1,46 @@
+.search {
+width: 440px;
+height: 50px;
+color: #00ffe5;
+border-radius: 20px;
+background-image: url(https://64.media.tumblr.com/b87bbbd43750b81928a261335ed69e75/tumblr_onfb2h2yEf1s14nrdo1_500.gifv);
+}
+.search:hover {
+	color: white;
+	font-style: bold;
+ box-shadow: -1px 1px 54px -8px #f900ff;
+
+}
+::-moz-placeholder {
+    color: black;
+
+}
+.Find {
+width: 100px;
+height: 50px;
+border-radius: 20px; 
+background-image: url(https://64.media.tumblr.com/b87bbbd43750b81928a261335ed69e75/tumblr_onfb2h2yEf1s14nrdo1_500.gifv);
+color: #00ffe5;
+}
+.Find:hover {
+  box-shadow: -1px 1px 54px -8px #f900ff;
+}
+
+input[type=text] {
+  width: 10%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 20%;
+} 
+body {
+	background-image: url(https://u.kanobu.ru/editor/images/18/6e72c3a8-6a70-438e-8ec8-739d03472d47.jpg);
+}
+h1 {
+	color: white;
+}
+.form {
+	padding-top: 20px;
+	border-radius: 20px;
+}
